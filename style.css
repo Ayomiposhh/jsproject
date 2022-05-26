@@ -1,0 +1,31 @@
+.container {
+  border: solid 5px white;
+  box-shadow: 5px 5px 5px 5px rgb(10, 2, 57);
+  width: 70%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 5%;
+  padding-bottom: 50px;
+
+  
+}
+
+.back {
+  background-image: url(image/unilaglogo.png);
+
+  height: 800px;
+}
+
+.overlay {
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  text-align: center;
+}
+
+#myForm {
+  padding: 50px;
+  
+} 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet"href="styles.css">
+  <title>QUIZ</title>
+</head>
+<body>
+
+<!--navbar-->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-Primary justify-content-end " >
+    <h6 class="text-white"style ="text-align: left; margin-right: 69%;">CREATED BY : AYOMIPOSHH ---- Time Left</h6>
+      <form class="form-inline  " action="">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      </form>
+    </nav>
+<!--my QUIZ-->
+  <div class="container">
+    <h2 id="myScore" class="text-danger"></h2>
+    <h4>ATTEMPT ALL QUESTIONS</h4>
+      <img src="image/unilaglogo.png" class="img-fluid">
+      <marquee behavior="" direction="" class="text-primary">
+        GOODLUCK!
+      </marquee>
+    <!-- <h1 class="text-danger" id="">TIME UP!. QUIZ IS OVER</h1>-->
+      <div id="questionContainer" style=" text-align:left;margin-bottom: 20px; font-size: larger; font-weight: bold;">
+      
+      </div>
+      <div id="optionContainer" style="text-align:left ; padding-left: 30px;">
+      </div>
+
+      <div id="buttonContainer">
+          <button type="submit" class="btn btn-primary" id="next">NEXT</button>
+          <button type="submit" class="btn btn-primary" id="submit">SUBMIT</button>
+          <button type="submit" class="btn btn-danger" id="prin" onclick="window.print()">PRINT RESULT</button>
+      </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
